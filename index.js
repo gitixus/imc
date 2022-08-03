@@ -21,6 +21,6 @@ function calc() {
   total = peso / altura
   total = total.toFixed(2)
   document.getElementById("resul").innerHTML = "Su IMC es: " + total + "</br>" +
-    "<a href='resultado.html#" + total + "'>Resultado completo</a>";
+    "<a href='resultado.html#" + total + "'>·Resultado completo</a>";
 }
 

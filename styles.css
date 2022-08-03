@@ -6,6 +6,19 @@ body {
     background-color: rgb(240, 246, 247);
 }
 
+a {
+    color: rgb(90, 72, 72);
+    font-size: 1.2rem;
+}
+
+a:link {
+    color: rgb(92, 65, 65);
+}
+
+a:active {
+    color: rgb(110, 82, 82)
+  }
+
 h1 {
     color: rgb(66, 62, 62);
 }
@@ -26,4 +39,4 @@ img {
     border-radius: 2px;
     padding: 1px;
     width: 300px;
-  }
+}
