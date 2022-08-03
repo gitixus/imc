@@ -1,5 +1,5 @@
 var url = window.location.hash;
-url = url.slice(1, -1)
+url = url.slice(1)
 document.getElementById("resul").innerHTML = url
 
 if (url < 20) {
