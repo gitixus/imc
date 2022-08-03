@@ -3,20 +3,22 @@ url = url.slice(1)
 document.getElementById("resul").innerHTML = url
 
 if (url < 20) {
-    document.getElementById("texto").innerHTML = "Su resultado es: Falta de peso."
+    texto = "Su resultado es: <b>Falta de peso</b>."
 }
 if (url > 20 && url < 25) {
-    document.getElementById("texto").innerHTML = "Su resultado es: Peso normal."
+    texto = "Su resultado es: <b>Peso normal</b>."
 }
 
 if (url > 25 && url < 30) {
-    document.getElementById("texto").innerHTML = "Su resultado es: Sobrepeso."
+    texto = "Su resultado es: <b>Sobrepeso</b>."
 }
 
 if (url > 30 && url < 40) {
-    document.getElementById("texto").innerHTML = "Su resultado es: Obesidad."
+    texto = "Su resultado es: <b>Obesidad</b>."
 }
 
 if (url > 40) {
-    document.getElementById("texto").innerHTML = "Su resultado es: Fuerte obesidad - Obesidad mórbida."
+    texto = "Su resultado es: <b>Fuerte obesidad - Obesidad mórbida</b>."
 }
+
+document.getElementById("texto").innerHTML = texto
